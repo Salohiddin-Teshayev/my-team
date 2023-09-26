@@ -1,0 +1,67 @@
+
+.site__main-header {
+  padding-top: 77px;
+  // padding-bottom: 120px;
+}
+.site__header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-header__logo--img {
+  margin-right: 80px;
+}
+
+.site__header-item--link {
+  display: none;
+  margin-right: 40px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration: none;
+}
+.site__header-button{
+  display: none;
+  width: 153px;
+  padding: 8px 3px;
+  margin-left: auto;
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+  line-height: 32px;
+  background-color: transparent;
+  border: none;
+  border-radius: 24px;
+  border: 2px solid #fff;
+  text-decoration: none;
+}
+.site-header__logo--img {
+  max-width: 128px;
+  height: 32px;
+  width: 100%;
+}
+.header__btn {
+  width: 20px;
+  height: 20px;
+  background-image: url(../../images/burger-menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+}
+.site__header-button:hover {
+  color: #002529;
+  background-color: #fff;
+}
+@media only screen and (min-width: 768px) {
+  .header__btn {
+    display: none;
+  }
+  .site__header-item--link {
+    display: block;
+  }
+  .site__header-button {
+    display: block;
+  }
+}
